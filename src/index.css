@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;1,300&display=swap");
+
+* {
+  /*border: 0.01px solid black;*/
+}
+
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: Newsreader, serif;
+}
+
+img {
+  width: 30em;
+  height: 20em;
+}
+
+h1 {
+  text-align: center;
+}
+
+.topnews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-flow: wrap;
+  background-color: rgb(206, 206, 206);
+}
+
+.brief {
+  max-width: 30em;
+  margin: 1.25em 1.25em;
+  background-color: rgb(245, 234, 219);
+  padding: 0.5em;
+  font-size: 1.1em;
+}
+
+.brief:hover {
+  box-shadow: 1.1px 1.1px 1.1px 1.1px rgb(63, 63, 63);
+}
+
+a {
+  text-decoration: none;
+}
+
+.source {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 800;
+}
+
+h4 a {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.btn {
+  background-color: rgb(238, 37, 37);
+  color: #fff;
+  border-radius: 0.5em;
+  padding: 0.4em;
+  margin-left: 75%;
+  border: 0em;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(95%);
+}
+
+footer {
+  border-top: 1px solid black;
+  text-align: center;
+}
+
+.empty {
+  height: 99vh;
+  background-color: rgb(206, 206, 206);
+  width: 99vw;
+}
+
+.empty h1 {
+  background-color: #fff;
+  padding: 0.5em 0;
+  margin-top: 0;
+}
+
+.empty footer {
+  background-color: #fff;
+  font-size: 1.2em;
+  position: absolute;
+  bottom: 0;
+  width: 99vw;
+}
+
+.empty a {
+  background-color: blue;
+  color: #fff;
+  font-size: 1.3em;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  position: relative;
+  left: 45%;
+}
+
+@media only screen and (max-width: 523px) {
+  .brief {
+    max-width: 23em;
+  }
+
+  img {
+    max-width: 23em;
+    height: 17em;
+  }
+}
