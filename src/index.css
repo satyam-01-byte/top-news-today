@@ -15,8 +15,34 @@ img {
   height: 20em;
 }
 
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
 h1 {
   text-align: center;
+}
+
+.countries {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.countries > h3 {
+  margin: 3px;
+}
+
+.country {
+  margin: 2px 5px;
+  background-color: rgb(245, 217, 126);
+  border-radius: 10%;
+  cursor: pointer;
+  padding: 4px 8px;
+  color: rgb(87, 87, 87);
+  border: none;
 }
 
 .topnews {
@@ -76,6 +102,9 @@ a:hover {
 footer {
   border-top: 1px solid black;
   text-align: center;
+  position: absolute;
+  bottom: -5;
+  width: 100%;
 }
 
 .empty {
