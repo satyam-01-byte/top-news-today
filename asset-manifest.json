@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/satyam-01-byte.github.io/top-news-today/static/css/main.6fd542d0.chunk.css",
+    "main.js": "/satyam-01-byte.github.io/top-news-today/static/js/main.266981c4.chunk.js",
+    "main.js.map": "/satyam-01-byte.github.io/top-news-today/static/js/main.266981c4.chunk.js.map",
+    "runtime-main.js": "/satyam-01-byte.github.io/top-news-today/static/js/runtime-main.ed668b9f.js",
+    "runtime-main.js.map": "/satyam-01-byte.github.io/top-news-today/static/js/runtime-main.ed668b9f.js.map",
+    "static/js/2.235284c2.chunk.js": "/satyam-01-byte.github.io/top-news-today/static/js/2.235284c2.chunk.js",
+    "static/js/2.235284c2.chunk.js.map": "/satyam-01-byte.github.io/top-news-today/static/js/2.235284c2.chunk.js.map",
+    "index.html": "/satyam-01-byte.github.io/top-news-today/index.html",
+    "static/css/main.6fd542d0.chunk.css.map": "/satyam-01-byte.github.io/top-news-today/static/css/main.6fd542d0.chunk.css.map",
+    "static/js/2.235284c2.chunk.js.LICENSE.txt": "/satyam-01-byte.github.io/top-news-today/static/js/2.235284c2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed668b9f.js",
+    "static/js/2.235284c2.chunk.js",
+    "static/css/main.6fd542d0.chunk.css",
+    "static/js/main.266981c4.chunk.js"
+  ]
+}
