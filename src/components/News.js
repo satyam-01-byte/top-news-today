@@ -7,10 +7,10 @@ const UseEffectFetchData = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);
   const [country, setCountry] = useState("in");
+  const [apiKey, setApiKey] = useState(process.env.REACT_APP_API_KEY);
 
   const link =
-    `http://newsapi.org/v2/top-headlines?country=${country}&apiKey=` +
-    process.env.REACT_APP_API_KEY;
+    `http://newsapi.org/v2/top-headlines?country=${country}&apiKey=` + apiKey;
 
   const [url, setUrl] = useState(link);
 
@@ -35,8 +35,7 @@ const UseEffectFetchData = () => {
   const countrynews = async (country) => {
     setCountry(country);
     setUrl(
-      `http://newsapi.org/v2/top-headlines?country=${country}&apiKey=` +
-        process.env.REACT_APP_API_KEY
+      `http://newsapi.org/v2/top-headlines?country=${country}&apiKey=` + apiKey
     );
     getNews();
   };
@@ -54,6 +53,10 @@ const UseEffectFetchData = () => {
   }
 
   if (isError) {
+    setApiKey(process.env.REACT_APP_API_KEY2);
+    setUrl(
+      `http://newsapi.org/v2/top-headlines?country=${country}&apiKey=` + apiKey
+    );
     return (
       <div>
         <h1>Error...</h1>
